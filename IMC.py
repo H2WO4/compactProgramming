@@ -1,0 +1,1 @@
+print("Vous mesurez " + str((t := int(input("Taille : ")))) + "m et pesez " + str((m := int(input("Poids : ")))) + "kg votre IMC vaut " + str(round(m/t**2, 2)))

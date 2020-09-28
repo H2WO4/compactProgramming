@@ -1,0 +1,1 @@
+print("Le nombre " + (n := input("Entrez un nombre : ")) + " est un nombre de Amstrong : " + str(True if (int(n[0])**3 + int(n[1])**3 + int(n[2])**3) == int(n) else False))
