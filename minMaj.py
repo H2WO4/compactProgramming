@@ -1,0 +1,1 @@
+print("".join([(chr(ord(i)-32)) if ord(i) in range(97,123) else (chr(ord(i)+32)) if ord(i) in range(65, 91) else i for i in input("Entrez un chaine de charactères : ")]))

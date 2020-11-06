@@ -1,0 +1,2 @@
+n = int(input("Quelle est la clef (on décrypte avec l'opposé de la clef): "))
+print("".join([chr(((ord(i)+n-97)%26)+97) if ord(i) in range(97,123) else chr(((ord(i)+n-65)%26)+65) if ord(i) in range(65,91) else i for i in input("Entrez une chaine de charactères : ")]))

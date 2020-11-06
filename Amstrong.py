@@ -1,2 +1,1 @@
-print("Le nombre {} est un nombre de Amstrong : {}".format((n := input("Entrez un nombre : ")),
-                                                            str((int(n[0])**3 + int(n[1])**3 + int(n[2])**3) == int(n))))
+print("Le nombre {} est un nombre de Amstrong : {}".format((n := input("Entrez un nombre : ")), str((int(n[0])**3 + int(n[1])**3 + int(n[2])**3) == int(n))))

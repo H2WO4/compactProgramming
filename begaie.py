@@ -1,0 +1,1 @@
+print("".join([i + i for i in input("Entrez une chaine de charactères : ")]))
